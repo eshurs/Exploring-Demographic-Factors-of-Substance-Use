@@ -18,6 +18,11 @@ An initial exploratory analysis was performed by to determine which individuals 
 
 To further explore the emergent groups and trends within substance use, machine learning algorithms for classification and regression were applied to the augmented dataset. K-Means++ was applied to split the data into 4 clusters, such that an individual's demographic data could be entered and the algorithm could predict their cluster and various attributes. Likewise, support vecotr machines were applied and iterated for to find the C and gamma parameters that yielded the maximum accuracy, achieving an average of 80% accuracy for predicting an individual's propensity for substance.
 
+![image](https://user-images.githubusercontent.com/28024140/227397676-eba913f5-96ba-46eb-9b0b-b67d5be9d16c.png)
+![image](https://user-images.githubusercontent.com/28024140/227397687-f8209c81-1ca6-4f5d-8ab5-72f49f42c6cf.png)
+
+
 ### Conclusions
 
 While the most obvious trend of mutually exclusive substance use became emergent from the exploratory analysis and confirmed by the machine learning applications, there is still more to be uncovered in this dataset and other related sources of substance use information. As this project progresses, Naive Bayes theorem will be applied to determine the relative probabilities of individual traits and substance use to generate a more granular view of trends in isolated characteristics. 
+
